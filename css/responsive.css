@@ -1,0 +1,332 @@
+:root {
+    --roboto: 'Roboto', cursive;
+}
+
+
+
+
+
+/* if the viewport is equal to 340px or less than that */
+@media only screen and (max-width: 340px) {
+
+    body {
+        overflow-y: hidden;
+    }
+
+    .header_area .main-menu .navbar,
+    .header_area .main-menu .navbar .navbar-brand,
+    .site-main .subscribe-us-area .subscribe .subscribe-title,
+    .site-main .subscribe-us-area .subscribe .subscribe-title p,
+    h4,
+    .site-main .services-area,
+    .site-main .subscribe-us-area .subscribe {
+        padding: 2%;
+        margin: 0%;
+    }
+
+    .site-main .site-banner .site-title h1 {
+        font-size: 41px;
+    }
+
+    .site-main .subscribe-us-area .subscribe form .input-textbox input {
+        width: 15rem !important;
+    }
+
+    .site-main>.services-area .services {
+        width: 13rem;
+    }
+
+    .nav-wrapper {
+        height: 0;
+    }
+
+}
+
+
+/* if the viewport is equal to 340px or less than that */
+@media only screen and (max-width: 760px) {
+
+    body {
+        overflow-y: visible;
+    }
+
+    .animated-text {
+        white-space: nowrap;
+        padding: 0 20rem;
+        margin-left: -0.5rem;
+    }
+
+    .line {
+        font-size: 35px;
+    }
+
+
+    .line1 {
+        margin-left: 9px;
+    }
+
+
+    .line2 {
+        margin-left: -8px;
+    }
+
+    .line3 {
+        margin-left: -0.005rem;
+        margin-left: 0.6rem;
+    }
+
+    .line4 {
+        margin-left: -6px;
+        margin-left: 0.6rem;
+    }
+
+    .site-main .about-area .about-title h2>span {
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
+
+    .site-main .brand-area .experience-area .years-area {
+        padding-left: 5%;
+        width: 49%;
+    }
+
+    .site-main .brand-area .experience-area .bg-panel {
+        margin-left: 30%;
+        width: 80%;
+    }
+
+    .site-main .brand-area .experience-area .call-area {
+        padding-left: 3%;
+    }
+
+    .site-main .project-area .button-group button {
+        font: normal 500 18px/40px var(--roboto);
+    }
+
+    .site-main .about-area .about-title p {
+        padding: 0%;
+    }
+
+    .site-main .site-banner .banner-image>img {
+        position: absolute;
+        margin-top: 9rem;
+    }
+
+    .site-main .site-banner .site-title .site-buttons {
+        padding-bottom: 0.41rem;
+    }
+
+    .site-main .services-area .services-list {
+        margin-left: -1.5rem;
+    }
+
+    .site-main .brand-area .experience-area {
+        padding-left: 8rem;
+        padding-top: 3rem;
+    }
+
+    .site-main .project-area .grid .our-project>.title h4 {
+        line-height: 30px;
+    }
+
+    .site-main .subscribe-us-area .subscribe form .input-textbox input {
+        width: 17rem;
+        position: relative;
+        right: -3.4rem;
+    }
+
+    .site-main .subscribe-us-area .subscribe form .btn-submit button {
+        position: relative;
+        right: -11rem;
+        margin-top: 5px;
+    }
+
+    .site-main .subscribe-us-area .subscribe {
+        background: url(../img/subscribe-bg.png) no-repeat;
+        height: 75rem;
+    }
+
+    footer.footer-area {
+        margin-top: -45rem;
+    }
+
+    .navbar-expand-lg {
+        position: relative;
+        top: 0.5rem;
+        right: -2.4rem;
+    }
+
+    .header_area .main-menu .navbar .navbar-brand {
+        margin-left: -6.5rem;
+    }
+
+    .site-main .site-banner .site-title {
+        position: relative;
+        top: 1.5rem;
+    }
+
+    .nav-wrapper {
+        height: auto !important;
+    }
+
+    .site-main .project-area .button-group button+button {
+        padding-left: 0.3rem;
+    }
+
+}
+
+
+/* if the viewport is equal to 1910px or less than that */
+@media only screen and (max-width: 1910px) {
+
+
+
+
+    .header_area .main-menu .navbar {
+        padding: 1rem;
+    }
+
+    .header_area .main-menu .navbar .navbar-nav {
+        margin-top: 0.8rem;
+    }
+
+    .header_area .main-menu .navbar .navbar-brand {
+        margin-top: 0.3rem;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+    .site-main .brand-area,
+    .site-main .services-area .services-title,
+    .site-main .about-area {
+        padding: 3% 4%;
+    }
+
+
+}
+
+/**Ipad Pro**/
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+
+    .animated-text {
+        white-space: nowrap;
+        padding: 0 80rem;
+        margin-left: -0.5rem;
+    }
+
+    .line1 {
+        margin-left: 0.6rem;
+    }
+
+    .line2 {
+        margin-left: -0.8rem;
+    }
+
+    .line3 {
+        margin-left: -1rem;
+        margin-left: 10px;
+    }
+
+    .line4 {
+        margin-left: -0.5px;
+        margin-left: 9px;
+    }
+
+    .site-main .site-banner .site-title .site-buttons {
+        padding-bottom: 0.41rem;
+    }
+
+    .site-main .site-banner .banner-image>img {
+        margin-top: 6.5rem;
+    }
+
+    .site-main>.services-area .services {
+        width: 13rem;
+    }
+
+    .site-main .brand-area .experience-area {
+        padding-left: 8rem;
+        padding-top: 3rem;
+    }
+
+    .site-main .brand-area .experience-area .bg-panel {
+        left: -80px;
+        top: 50px;
+    }
+
+    .site-main .project-area .grid .our-project>.title h4 {
+        line-height: 30px;
+    }
+
+    .site-main .subscribe-us-area .subscribe form .input-textbox input {
+        margin-left: 2rem;
+    }
+
+    .site-main .subscribe-us-area .subscribe form .btn-submit button {
+        margin-top: 25px;
+        margin-right: 10rem;
+    }
+}
+
+
+/**Ipad**/
+@media only screen and (max-width: 768px) {
+
+    body {
+        overflow-y: visible;
+    }
+
+    .site-main .site-banner .banner-image>img {
+        position: relative;
+        top: -8rem;
+        left: -1rem;
+    }
+
+    .site-main .site-banner .site-title {
+        margin-top: -5rem;
+    }
+
+    .site-main .about-area .about-image {
+        width: 25rem;
+        height: 12rem;
+    }
+
+    .site-main .about-area .about-title {
+        margin-top: 7.5rem;
+        margin-left: 0.7rem;
+    }
+
+    .site-main .brand-area .row {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .site-main .brand-area .experience-area {
+        margin-left: -6.8rem;
+        margin-top: 4rem;
+    }
+
+    .site-main .brand-area .experience-area .bg-panel {
+        top: 6.5rem;
+        left: -12rem;
+    }
+
+    .site-main .subscribe-us-area .subscribe form .input-textbox input {
+        margin-left: -1.5rem;
+    }
+
+    .site-main .subscribe-us-area .subscribe form .btn-submit button {
+        margin-right: 7.1rem;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        margin-right: -10px;
+    }
+
+    .nav-wrapper {
+        height: auto !important;
+    }
+}
