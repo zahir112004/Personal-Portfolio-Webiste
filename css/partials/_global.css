@@ -81,7 +81,7 @@ button:active button:hover .btn:active,
 .navbar_fixed {
     position: fixed;
     width: 100%;
-    top: -1px;
+    top: -5px;
     left: 0;
     right: 0;
     background: #ffffff;
