@@ -22,7 +22,7 @@
 }
 
 .header_area .main-menu .navbar {
-    padding: 1rem 20rem;
+    padding: 3rem 22rem;
 }
 
 .header_area .main-menu .nav-item .nav-link {
@@ -90,8 +90,12 @@
     font-size: 45px;
 }
 
+.line1 {
+    margin-left: 2.5rem;
+}
+
 .line2 {
-    margin-left: 1rem;
+    margin-left: 1.5rem;
 }
 
 .line3 {
@@ -413,3 +417,19 @@ footer.footer-area .social a:hover>i {
 
 
 /* End Footer */
+
+
+/* Custom ScrollBar */
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#5556E0, #301934);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(transparent, #00c6ff);
+}

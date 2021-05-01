@@ -1,11 +1,3 @@
-:root {
-    --roboto: 'Roboto', cursive;
-}
-
-
-
-
-
 /* if the viewport is equal to 340px or less than that */
 @media only screen and (max-width: 340px) {
 
@@ -37,7 +29,7 @@
     }
 
     .nav-wrapper {
-        height: 0;
+        height: auto;
     }
 
 }
@@ -48,6 +40,10 @@
 
     body {
         overflow-y: visible;
+    }
+
+    .navbar_fixed {
+        padding-right: 30px;
     }
 
     .animated-text {
@@ -137,7 +133,7 @@
 
     .site-main .subscribe-us-area .subscribe form .btn-submit button {
         position: relative;
-        right: -11rem;
+        right: -11.3rem;
         margin-top: 5px;
     }
 
@@ -148,6 +144,21 @@
 
     footer.footer-area {
         margin-top: -45rem;
+    }
+
+    .footer-area .social {
+        white-space: nowrap;
+        margin-left: -25px;
+    }
+
+    footer.footer-area {
+        background: url(../img/footer-bg.png) no-repeat;
+        position: relative;
+        left: 17px;
+    }
+
+    .footer-area .social .text-uppercase {
+        margin-left: 1.5rem;
     }
 
     .navbar-expand-lg {
@@ -173,25 +184,38 @@
         padding-left: 0.3rem;
     }
 
+    .site-main .services-area .services-title {
+        white-space: nowrap;
+        margin-left: -1.5rem;
+    }
+
+    .site-main .project-area .button-group {
+        white-space: nowrap;
+        padding-bottom: 2rem;
+    }
+
+    .site-main .subscribe-us-area .subscribe {
+        margin-left: 2.35rem;
+    }
+
+    .site-main .subscribe-us-area .navbar-fixed {
+        position: fixed;
+    }
+
 }
 
 
 /* if the viewport is equal to 1910px or less than that */
 @media only screen and (max-width: 1910px) {
 
+    .animated-text {
+        white-space: nowrap;
+    }
 
 
 
     .header_area .main-menu .navbar {
         padding: 1rem;
-    }
-
-    .header_area .main-menu .navbar .navbar-nav {
-        margin-top: 0.8rem;
-    }
-
-    .header_area .main-menu .navbar .navbar-brand {
-        margin-top: 0.3rem;
     }
 
     .container {
@@ -203,6 +227,35 @@
     .site-main .about-area {
         padding: 3% 4%;
     }
+
+}
+
+
+
+@media only screen and (max-width: 1920px) {
+    .animated-text {
+        white-space: nowrap;
+    }
+
+    .site-main .site-banner .container {
+        max-width: 90%;
+    }
+
+
+    .site-main .services-area .services-list {
+        max-width: 90%;
+    }
+
+    .site-main .brand-area,
+    .site-main .services-area .services-title,
+    .site-main .about-area {
+        padding: 3% 4%;
+    }
+
+    .header_area .main-menu .navbar {
+        padding: 1rem;
+    }
+
 
 
 }
@@ -273,7 +326,7 @@
 
 
 /**Ipad**/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
 
     body {
         overflow-y: visible;
@@ -329,4 +382,5 @@
     .nav-wrapper {
         height: auto !important;
     }
+
 }
